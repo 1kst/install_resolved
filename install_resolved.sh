@@ -16,7 +16,7 @@ ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 # 修改 /etc/systemd/resolved.conf 文件
 {
   echo "[Resolve]"
-  echo "DNS=8.8.8.8 1.1.1.1"
+  echo "DNS=8.8.8.8 8.8.4.4"
   echo "Cache=yes"
 } > /etc/systemd/resolved.conf
 
